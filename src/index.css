@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-style {
+    @apply bg-dark-blue rounded-xl py-[1.8rem] px-4 mt-[-8px] transition duration-300 ease-out cursor-pointer hover:bg-desaturated-blue;
+  }
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
