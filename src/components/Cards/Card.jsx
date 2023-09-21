@@ -18,11 +18,11 @@ export const Card = ({ title, hours, previousHours }) => {
         <div className="text-white flex items-center justify-between">
           <p className="font-[500]">{title}</p>
           
-          <img src={ellipsis} alt="Icon ellipsis" className="w-6 cursor-pointer" />
+          <img src={ellipsis} alt="Icon ellipsis" className="w-[1.4rem] cursor-pointer" />
         </div>
 
         <div className="text-pale-blue flex items-center justify-between gap-2 md:flex-col lg:gap-4">
-          <p className="text-2xl text-white font-[300] md:self-start md:text-4xl lg:text-6xl">{hours}hrs</p>
+          <h2 className="text-2xl text-white font-[300] md:self-start md:text-4xl lg:text-6xl">{hours}hrs</h2>
 
           <p className="text-sm md:self-start md:pl-1 lg:text-base">Last Week - {previousHours}hrs</p>
         </div>
